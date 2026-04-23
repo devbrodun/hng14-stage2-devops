@@ -4,4 +4,3 @@ redis
 httpx
 pytest
 pytest-cov
-fakeredis

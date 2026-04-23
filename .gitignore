@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Docker
+# =========================
+**/docker-compose.override.yml
+*.log
+
+# Ignore container volumes (if local dev artifacts appear)
+redis_data/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Coverage / testing
+# =========================
+coverage.xml
+*.coverage
+coverage/
+.pytest_cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CI/CD artifacts
+# =========================
+trivy-report.sarif
